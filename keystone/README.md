@@ -109,7 +109,7 @@ trusted_issuer = CN=test-du-hinf-rde-994
 #issuer_attribute = SSL_CLIENT_I_DN
 ```
 
-## Create a keystone identity provider to a cert subject into an identity
+## Create a keystone identity provider to map a cert subject into an identity
 ### Curl commands
 ```bash
 # hash the issue DN. hash.py is included in the code:
