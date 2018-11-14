@@ -1,0 +1,24 @@
+{
+     "mapping": {
+         "rules": [
+             {
+                 "local": [
+                     {
+                        "user": {
+                            "name": "{0}",
+                            "domain": {
+                                "name": "default"
+                            },
+                            "type": "local"
+                        }
+                     }
+                ],
+                "remote": [
+                    {
+                        "type": "SSL_CLIENT_S_DN_CN"
+                    }
+                ]
+            }
+        ]
+    }
+}
